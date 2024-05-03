@@ -6,7 +6,7 @@
       <img src="https://i.imgur.com/xZzQJ5W.png" alt="Lorem ipsum" title="Lorem ipsum">
     </td>
     <td>
-      <img src="https://i.imgur.com/MQ0rn4U.png" alt="Dolor sit" title="Dolor sit">
+      <img src="https://i.imgur.com/MQ0rn4U.png" alt="Dolor sit" title="Dolor sit" style="max-width: 80%;">
     </td>
     <td>
       <img src="https://i.imgur.com/6PTb8O0.png" alt="Amet consectetur" title="Amet consectetur">
