@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "CensorNet",
+    "version": "1.0",
+    "description": "Shielding your screens from unwanted words.",
+    "permissions": [    
+        "activeTab",
+        "scripting"
+    ],
+    "icons": {
+        "128": "logo.png"
+      },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "http://127.0.0.1:5000/*",
+        "<all_urls>"
+      ],
+    
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["style.css"]
+      }
+    ],
+    
+    "action": {
+      "default_popup": ""
+    }
+
+  }
+  
