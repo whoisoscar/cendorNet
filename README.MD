@@ -71,11 +71,3 @@ The AI model used in this project, `pardonmyai`, was developed by Tarek Ziade. M
 ## Demo
 
 For a quick demonstration of the CensorNet capabilities, you can access the `/demo` endpoint on the Flask server, which illustrates how profane content is handled.
-
-## Contribution
-
-Contributions are welcome! Please refer to the contribution guidelines in the respective component directories for more details on how to contribute.
-
-## License
-
-Specify your license or state that the project is licensed under the MIT license for open-source projects.
